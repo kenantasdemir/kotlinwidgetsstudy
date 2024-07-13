@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PageActivity7"
+    tools:ignore="ExtraText">
+
+    <EditText
+        android:id="@+id/editTextTime"
+        android:layout_width="257dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="80dp"
+        android:ems="10"
+        android:focusableInTouchMode="false"
+        android:inputType="text"
+        android:text="Choose Time"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+
+        android:id="@+id/editTextDate"
+        android:layout_width="269dp"
+        android:layout_height="53dp"
+
+
+        android:layout_marginTop="136dp"
+
+        android:ems="10"
+        android:focusableInTouchMode="false"
+        android:inputType="text"
+        android:text="Choose Date"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTime" />
+
+    <Button
+        android:id="@+id/buttonGoTo8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="161dp"
+        android:layout_marginTop="174dp"
+        android:layout_marginEnd="160dp"
+        android:text="Go To 8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextDate" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
